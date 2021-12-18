@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import styles from "./FriendList.module.scss";
+import styled from "styled-components";
 
 const FriendListItem = ({ friend }) => {
   const { name, avatar, isOnline } = friend;
